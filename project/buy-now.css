@@ -1,0 +1,77 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+
+body {
+     background-image: url(/project/icon/img/hand-painted-watercolor-background-with-sky-clouds-shape.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+     width: 100%;
+}
+
+.khung-1 {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+
+}
+
+.box-2 {
+     width: 500px;
+     background-color: #ffff;
+     box-shadow: 6px 5px 6px 6px rgb(37, 33, 33);
+     border-radius: 12px;
+     padding: 3.5rem;
+}
+
+h1 {
+     text-align: center;
+     text-transform: uppercase;
+     font-weight: lighter;
+     padding-bottom: 16px;
+}
+
+.text-box {
+     padding: 14px 0;
+
+}
+
+h4 {
+     font-size: 24px;
+     font-weight: 400;
+     padding-bottom: 4px;
+}
+
+input {
+     width: 100%;
+     border: none;
+     border-bottom: 2px solid #eb66b6;
+     outline: none;
+}
+
+button{
+     width: 100%;
+     height: 30px;
+     background-color: rgb(255, 163, 178);
+     color: rgb(8, 6, 6);
+     border: none;
+     padding: 5px 0;
+     margin-top: 10px;
+     margin-bottom: 25px;
+     cursor: pointer;
+}
+
+.alert {
+     cursor: pointer;
+     color: blue;
+
+}
+
+:hover.click {
+     background-color: rgb(138, 136, 136);
+     color: pink;
+}

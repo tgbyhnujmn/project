@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#header{
+   height: 47px;
+   background-color: black;
+}
+#nav li{
+  display: inline-block;
+
+}
+#nav li a {
+      display: inline-block;
+      color: white;
+      text-transform: uppercase;
+      text-decoration: none;
+      line-height: 47px;
+      padding: 0 24px;
+}
+#nav li:hover a {
+  color: black;
+  background-color: white;
+}
+h1{
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 4px;
+  margin: 15px 0;
+  
+}
+.member{
+  font-weight: bolder;
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0  ;
+}
+.band-img{
+  
+  display: flex;
+  justify-content: space-around;
+
+}
+.band-img img{
+  width: 20%;
+  border-radius: 10px;
+
+}
+#contact-text{
+  text-align: center;
+  margin: 15px 0;
+  text-transform: uppercase;
+
+}
+.contact-info{
+  text-align: center;
+}
+.contact-input input{
+  
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+button {
+  margin: 15px 0;
+  border: none;
+  background-color: black;
+  color: white;
+  padding:5px;
+  
+
+}
+button:hover {
+  background-color: #ccc;
+  color:black;
+}
+.contact-button{
+  display: flex;
+  justify-content:center;
+}
